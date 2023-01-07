@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Job Application <span>(Web)</span></h1>
+        </div>
+
+        <form action="">
+            <div class="fromcontainer">
+
+                <section>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="" id="firstname">
+                </section>
+                <section>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="" id="lastname">
+                </section>
+
+                <section>
+                    <label for="useremail">Email</label>
+                    <input type="email" name="" id="useremail">
+                </section>
+                <section>
+                    <label for="jobrole">Job Role</label>
+                    <select id="jonrole">
+                        <option value="">Select Job Role</option>
+                        <option value="frontenddev">Frontend Devloper</option>
+                        <option value="backenddev">Backend Developer</option>
+                        <option value="fullstackdev">Full Stack Developer</option>
+                        <option value="javadev">Java Developer</option>
+                    </select>
+                </section>
+
+                <section class="adreess">
+                    <label for="adress">Address</label>
+                    <textarea id="adress" cols="30" rows="10"></textarea>
+                </section>
+
+
+                <section>
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </section>
+
+
+                <section>
+                    <label for="pincode">Pincode</label>
+                    <input type="number" name="" id="pincode">
+                </section>
+
+                <section>
+                    <label for="date">Start Date</label>
+                    <input type="date" name="" id="date">
+                </section>
+                
+                <section>
+                    <label for="cvuplod">Updated You CV</label>
+                    <input type="file" name="" id="cvuplod">
+                </section>
+            </div>
+
+            <div class="button">
+                <button type="submit" id="submit">Apply Now</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
