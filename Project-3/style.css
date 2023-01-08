@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1 {
+    background-image: url(images/image1.png);
+    min-height: 900px;
+}
+.img2 {
+    background-image: url(images/image2.png);
+    min-height: 900px;
+}
+.img1,.img2 {
+
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.textBg {
+    background-color: #666;
+    color: white;
+    padding: 15px;
+}
+
+.lorem1 {
+    background-color: whitesmoke;
+}
+
+.lorem2 {
+    background-color: #666;
+    color: whitesmoke;
+}
+.lorem1,.lorem2 {
+    padding: 10px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
